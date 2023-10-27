@@ -11,7 +11,11 @@
   --background-white: #FAFAFA;
   --background-white-01: #F6F3F1;
   --background-white-02: #FCFAF8;
+
+  --title-green: #6C8A88;
 }
+
+
 
 @font-face {
   font-family: 'Xiaomi Brand';
@@ -120,54 +124,23 @@
   color: #7f7f7f;
 }
 
-.txt-preto {
-  color: var(--background-black);
-}
 
-.txt-branco {
-  color: var(--background-white);
-}
+.title-green {color: var(--title-green);}
 
+.txt-preto {color: var(--background-black);}
+.txt-branco {color: var(--background-white);}
 
+.boxcolor-black{background-color: var(--background-black);}
+.boxcolor-black-01{background-color: var(--background-black-01);}
+.boxcolor-black-02{background-color: var(--background-black-02);}
+.boxcolor-with{background-color: var(--background-white);}
+.boxcolor-white-01{background-color: var(--background-white-01);}
+.boxcolor-white-02{background-color: var(--background-white-02);}
 
-.boxcolor-black{
-  background-color: var(--background-black);
-}
+.boxcolor-notas {background-color: var(--background-black);}
 
-.boxcolor-black-01{
-  background-color: var(--background-black-01);
-}
-
-.boxcolor-black-02{
-  background-color: var(--background-black-02);
-}
-
-.boxcolor-with{
-  background-color: var(--background-white);
-}
-
-.boxcolor-white-01{
-  background-color: var(--background-white-01);
-}
-
-.boxcolor-white-02{
-  background-color: var(--background-white-02);
-}
-
-
-
-.boxcolor-notas {
-  background-color: var(--background-black-01);
-}
-
-
-p.txt-branco-preto {
-  color: var(--background-white);
-}
-
-.spacing{
-  padding: 3rem;
-}
+p.txt-branco-preto {color: var(--background-white);}
+.spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
