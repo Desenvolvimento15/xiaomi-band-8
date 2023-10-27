@@ -4,12 +4,27 @@
   background-repeat: repeat-y;
 }
 
+:root{
+  --background-black: #000;
+  --background-black-01: #020406;
+  --background-black-02: #242424;
+  --background-white: #FAFAFA;
+  --background-white-01: #F6F3F1;
+  --background-white-02: #FCFAF8;
+}
+
+@font-face {
+  font-family: 'Xiaomi Brand';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
+}
+
+
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-body {
-  font-family: "Camphor Pro", sans-serif;
-}
 
 .img-fluid {
   width: 100%;
@@ -20,7 +35,7 @@ body {
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "Xiaomi Brand";
   position: relative;
   line-height: 1;
   overflow-wrap: break-word;
@@ -44,15 +59,6 @@ body {
   overflow-wrap: break-word;
 }
 
-.sub-title {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 400;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-}
 
 .p-center {
   font-size: 1.1rem;
@@ -65,7 +71,7 @@ body {
 }
 
 .p-aviso {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   padding: 20px;
   font-family: "Camphor Pro", sans-serif;
@@ -115,33 +121,49 @@ body {
 }
 
 .txt-preto {
-  color: #292929;
+  color: var(--background-black);
 }
 
 .txt-branco {
-  color: #fff;
+  color: var(--background-white);
 }
 
-.txt-azul {
-  color: #00e9fe;
+
+
+.boxcolor-black{
+  background-color: var(--background-black);
 }
 
-.boxcolor {
-  background-color: #fcfbfc;
+.boxcolor-black-01{
+  background-color: var(--background-black-01);
 }
 
-.boxcolor2 {
-  background-color: #fff;
+.boxcolor-black-02{
+  background-color: var(--background-black-02);
 }
 
-.boxcolor3 {
-  background-color: #05061a;
+.boxcolor-with{
+  background-color: var(--background-white);
 }
+
+.boxcolor-white-01{
+  background-color: var(--background-white-01);
+}
+
+.boxcolor-white-02{
+  background-color: var(--background-white-02);
+}
+
+
+
+.boxcolor-notas {
+  background-color: var(--background-black-01);
+}
+
 
 p.txt-branco-preto {
-  color: #fff;
+  color: var(--background-white);
 }
-
 
 .spacing{
   padding: 3rem;
@@ -293,9 +315,8 @@ display: none;
 /************************************************************************************/
 
 
-.spacing{
-  padding: 1.5rem;
-}
+.spacing{padding: 1.5rem;}
+
   p.txt-branco-preto {
     color: #05061a;
   }
@@ -304,7 +325,7 @@ display: none;
     text-align: center;
     font-size: 2rem;
     font-weight: 500;
-    font-family: "Camphor Pro", sans-serif;
+    font-family: "Xiaomi Brand";
     position: relative;
     line-height: 1;
   }
@@ -390,8 +411,12 @@ display: none;
     line-height: 1.2;
 }
 
-/***********************************************************************/
+.p-notas{
+  text-align: left;
+  font-size: 0.9rem;
+}
 
+/***********************************************************************/
 
   .div02 {
     align-items: center;
