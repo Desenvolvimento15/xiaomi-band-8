@@ -18,6 +18,7 @@
 
   --subtitle-color-orange:#FF9338;
   --subtitle-color-ornage-second: #FFAF5B;
+  --subtitle-color-silver:#BEBEBE;
 }
 
 
@@ -37,6 +38,7 @@
 .img-fluid {
   width: 100%;
   height: auto;
+
 }
 
 .title {
@@ -59,6 +61,17 @@
   position: relative;
   margin-bottom: 1rem;
   overflow-wrap: break-word;
+}
+
+.subtitle-color-silver{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-silver);
 }
 
 .subtitle-color-orange {
