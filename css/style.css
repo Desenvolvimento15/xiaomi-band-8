@@ -14,8 +14,11 @@
 
   --title-green: #6C8A88;
   --title-black: #292929;
-}
+  --title-icon:#927964;
 
+  --subtitle-color-orange:#FF9338;
+  --subtitle-color-ornage-second: #FFAF5B;
+}
 
 
 @font-face {
@@ -58,6 +61,28 @@
   overflow-wrap: break-word;
 }
 
+.subtitle-color-orange {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-orange);
+}
+
+.subtitle-color-orange-second{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-ornage-second);
+}
+
 
 .p-center {
   font-size: 1.1rem;
@@ -84,21 +109,11 @@
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   font-weight: 700;
-  color: #5c317e;
+  color: var(--title-icon);
   margin-top: 1rem;
   line-height: 1.2;
 }
 
-.icons-title-01 {
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 700;
-  color: #5c317e;
-  margin-top: 1rem;
-  line-height: 1.2;
-}
 
 .icons-text {
   font-size: 1rem;
@@ -121,7 +136,6 @@
 
 
 .title-green {color: var(--title-green);}
-
 .txt-preto {color: var(--background-black);}
 .txt-branco {color: var(--background-white);}
 
@@ -132,114 +146,61 @@
 .boxcolor-white-01{background-color: var(--background-white-01);}
 .boxcolor-white-02{background-color: var(--background-white-02);}
 
-.boxcolor-notas {background-color: var(--background-black);}
+.boxcolor-notas {background-color: var(--background-black-02);}
 
 p.txt-branco-preto {color: var(--background-white);}
 .spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
-
-
-.img-grid-mob{
-  display: none;
-}
-.img-grid-desk{
-  display: block;
-  padding: 8rem;
+.grid-six-bloc{
+  display: grid;
+  justify-items: center;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 1rem;
 }
 
-.icon-white-desk{
-  display: block;
+.grid-desk-xiaomi{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
-.icon-dark-mob{
-display: none;
-}
+.img-grid-mob{display: none;}
+.img-grid-desk{display: block;padding: 8rem;}
+.icon-white-desk{display: block;}
+.icon-dark-mob{display: none;}
 
 /**************************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
 
-  
-  .icon-white-desk{
-    display: none;
-  }
-  
-  .icon-dark-mob{
-    display: block;
-  }
-
-  .img-grid-desk{
-    display: none;
-  }
-
-  .img-grid-mob{
-    display: block;
-    padding: 1rem;
-  }
-
+  .icon-white-desk{display: none;}
+  .icon-dark-mob{display: block;}
+  .img-grid-desk{display: none;}
+  .img-grid-mob{display: block; padding: 1rem;}
 
 /**************************************** Grind Mobile ********************************************/
 
-  .grid-img-text {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 20rem;
-    margin: 0 auto;
-    flex-direction: column;
-    gap: 1rem;
-    top: 1.5rem;
-  }
-
-  .grid-pad-se-text {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    max-width: 22rem;
-    margin: 0 auto;
-    flex-direction: row;
-    gap: 3rem;
-    margin-top: 1rem;
-    align-content: center;
-    align-items: center;
-}
-.grid-img-pad {
+.grid-desk-xiaomi{ 
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   flex-direction: row;
-  align-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
-.grid-pad-se {
-  display: flex;
   flex-wrap: nowrap;
+  align-content: center;
   justify-content: center;
-  max-width: 17rem;
-  margin: 0 auto;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 9rem;
 }
-
-  .grid-buds4-desk {
-    display: none;
-  }
-
 
 /************************************************************************************/
 
-
 .spacing{padding: 1.5rem;}
 
-  p.txt-branco-preto {
-    color: #05061a;
-  }
+  p.txt-branco-preto {color: #05061a;}
   
   .title {
     text-align: center;
