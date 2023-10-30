@@ -103,6 +103,12 @@
   overflow-wrap: break-word;
 }
 
+.p-notas{
+  text-align: left;
+  font-size: 1rem;
+  padding: 5rem;
+}
+
 .icons-title {
   font-size: 2.7rem;
   text-align: center;
@@ -153,12 +159,18 @@ p.txt-branco-preto {color: var(--background-white);}
 
 /*************************************************** Grid *************************************/
 
-.grid-six-bloc{
-  display: grid;
-  justify-items: center;
-  grid-template-columns:1fr 1fr 1fr;
-  gap: 1rem;
+
+  .grid-six-bloc {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.1rem;
+    max-width: 0rem;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
 }
+
 
 .grid-desk-xiaomi{ 
   display: flex;
