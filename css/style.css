@@ -301,11 +301,23 @@ p.txt-branco-preto {color: var(--background-white);}
     color: #5c317e;
     margin-top: 1rem;
     line-height: 1.2;
-}
+   }
 
 .p-notas{
   text-align: left;
   font-size: 0.9rem;
+}
+
+
+
+.grid-desk-xiaomi{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 /***********************************************************************/
