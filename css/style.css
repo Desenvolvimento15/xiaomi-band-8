@@ -182,7 +182,7 @@ p.txt-branco-preto {color: var(--background-white);}
     margin: 0 auto;
     align-content: center;
     justify-content: center;
-}
+  }
 
 
 .grid-desk-xiaomi{ 
@@ -221,6 +221,8 @@ p.txt-branco-preto {color: var(--background-white);}
   gap: 9rem;
 }
 
+
+
 /************************************************************************************/
 
 .spacing{padding: 1.5rem;}
@@ -234,6 +236,39 @@ p.txt-branco-preto {color: var(--background-white);}
     font-family: "Xiaomi Brand";
     position: relative;
     line-height: 1;
+  }
+
+  .subtitle-color-silver{
+    text-align: center;
+    font-size: 1.09rem;
+    font-weight: 600;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    color: var(--subtitle-color-silver);
+  }
+  
+  .subtitle-color-orange {
+    text-align: center;
+    font-size: 1.09rem;
+    font-weight: 600;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    color: var(--subtitle-color-orange);
+  }
+  
+  .subtitle-color-orange-second{
+    text-align: center;
+    font-size: 1.09rem;
+    font-weight: 600;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    color: var(--subtitle-color-ornage-second);
   }
 
 
