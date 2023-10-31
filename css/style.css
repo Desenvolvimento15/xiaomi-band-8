@@ -41,6 +41,10 @@
 
 }
 
+.img-margin{
+  margin-bottom: 6rem;
+}
+
 .title {
   text-align: center;
   font-size: 3rem;
@@ -110,7 +114,6 @@
 .p-aviso {
   font-size: 0.9rem;
   text-align: center;
-  padding: 20px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
@@ -200,182 +203,138 @@ p.txt-branco-preto {color: var(--background-white);}
 .icon-white-desk{display: block;}
 .icon-dark-mob{display: none;}
 
-/**************************************************** Mobile ************************************************/
+/****************************** Mobile ************************************************/
 
-@media only screen and (max-width: 920px) {
+@media only screen and (min-width: 0px) and (max-width: 920px) {
 
   .icon-white-desk{display: none;}
   .icon-dark-mob{display: block;}
+
   .img-grid-desk{display: none;}
-  .img-grid-mob{display: block; padding: 1rem;}
+  .img-grid-mob{display: block; }
 
-/**************************************** Grind Mobile ********************************************/
+/********************** Grind Mobile *******************/
 
-.grid-desk-xiaomi{ 
+.grid-desk-xiaomi {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: center;
-  gap: 9rem;
+  gap: 1rem;
 }
 
+/********************************************************/
 
-
-/************************************************************************************/
-
-.spacing{padding: 1.5rem;}
+  .spacing{padding: 1.5rem;}
 
   p.txt-branco-preto {color: #05061a;}
   
   .title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: "Xiaomi Brand";
-    position: relative;
-    line-height: 1;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Xiaomi Brand";
+  position: relative;
+  line-height: 1;
   }
 
   .subtitle-color-silver{
-    text-align: center;
-    font-size: 1.09rem;
-    font-weight: 600;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 1rem;
-    overflow-wrap: break-word;
-    color: var(--subtitle-color-silver);
+  text-align: center;
+  font-size: 1.09rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-silver);
   }
   
   .subtitle-color-orange {
-    text-align: center;
-    font-size: 1.09rem;
-    font-weight: 600;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 1rem;
-    overflow-wrap: break-word;
-    color: var(--subtitle-color-orange);
-  }
-  
-  .subtitle-color-orange-second{
-    text-align: center;
-    font-size: 1.09rem;
-    font-weight: 600;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 1rem;
-    overflow-wrap: break-word;
-    color: var(--subtitle-color-ornage-second);
+  text-align: center;
+  font-size: 1.09rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-orange);
   }
 
+  .subtitle-color-orange-second{
+  text-align: center;
+  font-size: 1.09rem;
+  font-weight: 600;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+  color: var(--subtitle-color-ornage-second);
+  }
 
   .subtitle {
-    text-align: center;
-    font-size: 1.09rem;
-    font-weight: 700;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.09rem;
+  font-weight: 700;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 0.5rem;
   }
 
-
   .p-center {
-    font-size: 0.99rem;
-    text-align: center;
-    padding: 20px;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    overflow-wrap: break-word;
-}
+  font-size: 0.99rem;
+  text-align: center;
+  padding: 20px;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  overflow-wrap: break-word;
+  }
 
   .p-aviso {
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 20px;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 300;
+  padding: 1.5rem
   }
 
   .icons-title {
-    font-size: 1.9rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 700;
-    margin-top: 1rem;
-}
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 700;
+  margin-top: 1rem;
+  }
 
   .icons-text {
-    font-size: 1rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 1rem;
   }
 
   .icons-tex {
-    font-size: 1rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 400;
-    color: #7f7f7f;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 400;
+  color: #7f7f7f;
   }
 
-  .icons-title-01 {
-    font-size: 1.9rem;
-    text-align: center;
-    font-family: "Camphor Pro", sans-serif;
-    position: relative;
-    font-weight: 700;
-    color: #5c317e;
-    margin-top: 1rem;
-    line-height: 1.2;
-   }
-
-.p-notas{
+  .p-notas {
   text-align: left;
   font-size: 0.9rem;
-}
-
-
-
-.grid-desk-xiaomi{ 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-/***********************************************************************/
-
-  .div02 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 0.625rem;
-    margin-top: 0.625rem;
-    min-height: 11.25rem;
-    width: 20.416667rem;
+  padding: 0.5rem;
   }
 
-  .div03 {
-    align-items: flex-start;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 8.333333rem;
-    width: 20.395833rem;
-  }
+
+
 
 }
